@@ -44,7 +44,7 @@ education:
     start: 2014-09-01
     end: 2021-06-30
     summary: |
-      Discovered "mosaic evolution" in parasitic organisms (BMC Biology, 2022). 
+      Discovered mosaic evolution in parasitic organisms (BMC Biology, 2022). 
       Developed CCPRD framework for proteomic analysis. Published 7 first-author papers.
     button:
       text: Download CV
@@ -53,7 +53,7 @@ education:
 experience:
   - role: Postdoctoral Scholar
     org: Northwestern University
-    start: 2022-08
+    start: 2022-01-01
     summary: |
       Developing computational tools for cancer genomics including ChimeraLM (deep learning for 
       artifact detection), OctopuSV (structural variant analysis), and ScanNeo2 (neoantigen discovery).
