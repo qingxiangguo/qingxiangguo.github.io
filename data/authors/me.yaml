@@ -39,7 +39,7 @@ interests:
   - Deep Learning in Genomics
   - Single-cell Multi-omics
 education:
-  - degree: PhD in Aquatic Animal Medicine
+  - degree: PhD in Bioinformatics
     institution: Huazhong Agricultural University
     start: 2014-09-01
     end: 2021-06-30
@@ -50,14 +50,10 @@ education:
       text: Download CV
       url: /uploads/resume.pdf
       icon: hero/arrow-down-tray
-  - degree: BS in Aquatic Biology
-    institution: Huazhong Agricultural University
-    start: 2010-09-01
-    end: 2014-06-30
 experience:
   - role: Postdoctoral Scholar
     org: Northwestern University
-    start: 2022-01-01
+    start: 2022-08
     summary: |
       Developing computational tools for cancer genomics including ChimeraLM (deep learning for 
       artifact detection), OctopuSV (structural variant analysis), and ScanNeo2 (neoantigen discovery).
