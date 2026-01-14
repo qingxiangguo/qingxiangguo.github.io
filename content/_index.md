@@ -39,7 +39,7 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'About me'
       subtitle: ''
       text: |-
         I received my Ph.D. in Bioinformatics at Huazhong Agricultural University in Jun 2021. With the generous guidance of Prof. Jerri Bartholomew, that experience sparked my lasting interest in host-parasite interactions and evolutionary genomics. My research background is in multi-omic insights (genomics, transcriptomics, and proteomics) into the early animal genome evolution and genetic basis of their phenotypic adaptation. And I am very interested in developing multimodal pipelines to discover fundamental principles that control phenotype.
@@ -72,44 +72,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:
