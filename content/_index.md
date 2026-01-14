@@ -10,7 +10,7 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: resume-biography-3
+  - block: resume-biography
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
@@ -21,10 +21,7 @@ sections:
         url: uploads/resume.pdf
       headings:
         about: ''
-        education: ''
         interests: ''
-      display:
-        education: false
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
