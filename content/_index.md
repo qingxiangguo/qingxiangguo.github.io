@@ -23,6 +23,8 @@ sections:
         about: ''
         education: ''
         interests: ''
+      display:
+        education: false
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
