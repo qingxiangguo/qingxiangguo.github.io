@@ -1,7 +1,7 @@
 ---
 title: Deep Learning Notes
 summary: 'Tutorials and notes on deep learning math fundamentals'
-date: 2023-02
+date: 2023-02-17
 type: page
 ---
 
