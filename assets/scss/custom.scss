@@ -1,0 +1,14 @@
+/* Widen the About me section (override Tailwind max-w-prose) */
+.about-wide .max-w-prose {
+  max-width: 1200px !important; 
+}
+
+/* The prose element also carries max width */
+.about-wide .prose {
+  max-width: 1200px !important;
+}
+
+/* Optional: avoid forcing center alignment inside the section */
+.about-wide .items-center {
+  align-items: stretch !important;
+}
