@@ -145,6 +145,150 @@ Understanding these attributes is crucial for memory management, ensuring compat
 
 ---
 
+---
+
+## 1.4 Tensor Indexing and Slicing
+
+Tensors support various operations including transposition, indexing, slicing, mathematical operations, linear algebra, and random sampling. These operations can run on GPU for significantly faster computation.
+
+**GPU acceleration**: GPUs have lower computing power per core but many more cores than CPUs, making them excellent for parallel computation. In deep learning, GPU computation is much faster than CPU. CUDA (Nvidia's parallel computing framework) and cuDNN (for deep convolutional networks) enable this acceleration.
+
+**Moving tensors to GPU**:
+```python
+if torch.cuda.is_available():
+    tensor = tensor.to('cuda')
+    print(f"Device tensor is stored on: {tensor.device}")
+```
+
+**Indexing and slicing**:
+```python
+tensor = torch.ones(4, 4)  # Create 4×4 tensor of ones
+print(tensor)
+# Output: 4×4 matrix of all ones
+
+tensor[:, 1] = 0  # Set all rows, second column to 0
+# Syntax: [first_dimension, second_dimension]
+# : means "from start to end with step 1"
+print(tensor)
+# Output: 
+# tensor([[1., 0., 1., 1.],
+#         [1., 0., 1., 1.],
+#         [1., 0., 1., 1.],
+#         [1., 0., 1., 1.]])
+```
+
+---
+
+## 1.5 Tensor Concatenation
+
+Use `torch.cat()` to concatenate multiple tensors along a specified dimension.
+```python
+tensor = torch.ones(4, 4)
+tensor[:, 1] = 0
+
+# Concatenate along dimension 1 (columns, horizontally)
+t1 = torch.cat([tensor, tensor, tensor], dim=1)
+# Result: 4×12 tensor (three 4×4 tensors side by side)
+```
+
+**Understanding dimensions**: For 2D arrays, `dim=0` refers to rows (vertical concatenation), `dim=1` refers to columns (horizontal concatenation).
+
+**More examples**:
+```python
+A = torch.ones(2, 3)      # 2×3 tensor
+B = 2 * torch.ones(4, 3)  # 4×3 tensor
+
+# Concatenate along rows (vertically)
+C = torch.cat([A, B], dim=0)  # Result: 6×3 tensor
+
+D = 2 * torch.ones(2, 4)  # 2×4 tensor
+
+# Concatenate along columns (horizontally)
+E = torch.cat([A, D], dim=1)  # Result: 2×7 tensor
+```
+
+---
+
+## 1.6 Tensor Arithmetic Operations
+
+Tensors support element-wise arithmetic operations with automatic broadcasting.
+```python
+x = torch.tensor([[[1, 2, 3],
+                   [4, 5, 6]],
+                  [[7, 8, 9],
+                   [10, 11, 12]]])  # 3D tensor
+
+y = torch.tensor([1, 2, 3])  # 1D tensor
+
+result = y - x
+# Broadcasting applies: y is expanded to match x's shape
+# Each row of x is subtracted from y element-wise
+```
+
+---
+
+## 1.7 Broadcasting Mechanism
+
+**Broadcasting** allows PyTorch operations to work on tensors of different shapes without explicitly copying data, enabling efficient computation.
+
+**Broadcasting conditions**:
+
+1. **Both tensors must have at least one element**
+```python
+x = torch.empty(0,)       # Cannot broadcast - empty
+y = torch.empty(2, 2)
+
+x = torch.empty(1,)       # Can broadcast - has one element
+y = torch.empty(2, 2)
+```
+
+2. **Dimensions must be compatible when compared right-to-left**
+
+Dimensions are compatible if:
+- **a)** They are equal in size
+- **b)** One tensor is missing that dimension
+- **c)** One tensor has size 1 in that dimension
+
+**Example**:
+```python
+x = torch.empty(5, 3, 4, 1)
+y = torch.empty(   3, 1, 1)
+```
+
+Checking from right to left:
+- 4th dimension: both size 1 ✓ (condition a)
+- 3rd dimension: 4 vs 1 ✓ (condition c)
+- 2nd dimension: both size 3 ✓ (condition a)
+- 1st dimension: 5 vs missing ✓ (condition b)
+
+**Broadcasting process**:
+
+Step 1 - Align dimensions by adding size-1 dimensions:
+```python
+# Before alignment:
+x = torch.empty(5, 3, 4, 1)
+y = torch.empty(   3, 1, 1)
+
+# After alignment:
+x = torch.empty(5, 3, 4, 1)
+y = torch.empty(1, 3, 1, 1)
+```
+
+Step 2 - Expand size-1 dimensions to match:
+```python
+# Before expansion:
+x = torch.empty(5, 3, 4, 1)
+y = torch.empty(1, 3, 1, 1)
+
+# After expansion (ready for operation):
+x = torch.empty(5, 3, 4, 1)
+y = torch.empty(5, 3, 4, 1)
+```
+
+**Key rule**: If two dimensions are unequal and neither is 1, broadcasting is not possible.
+
+---
+
 # Chapter 2: Derivatives, Differentials, and Gradients
 
 ## 2.1 Derivatives of Composite Functions
