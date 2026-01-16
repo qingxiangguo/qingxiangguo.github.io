@@ -1,27 +1,38 @@
+---
 title: "OctopuSV and TentacleSV: a one-stop toolkit for multi-sample, cross-platform structural variant comparison and analysis"
+
+date: "2025-11-01T00:00:00Z"         # 不确定具体日子就先用 11-01；之后可改成实际出版日
+publishDate: "2025-11-01T00:00:00Z"
+
 authors:
-- me
-- Yangyang Li
-- Ting-You Wang
-- Abhirami Ramakrishnan
-- Rendong Yang
-date: "2025-11-01"
-publishDate: "2025-11-01"
+  - me
+  - "Yangyang Li"
+  - "Ting-You Wang"
+  - "Abhirami Ramakrishnan"
+  - "Rendong Yang"
+
 publication_types: ["article-journal"]
-publication: "*Bioinformatics*, 41(11):btaf599"
-publication_short: ""
-abstract: OctopuSV and TentacleSV provide comprehensive tools for structural variant analysis across multiple samples and platforms.
-summary: A comprehensive toolkit for structural variant comparison and analysis.
-tags:
-- Structural Variants
-- Long-read Sequencing
-- Bioinformatics
+publication: "*Bioinformatics*, 41(11): btaf599"
+publication_short: "Bioinformatics"
+
 featured: true
+
 links:
-  - type: pdf
-    url: https://doi.org/10.1093/bioinformatics/btaf599
+  - type: journal
+    url: ""                          
+  - type: doi
+    url: ""                         
   - type: code
-    url: https://github.com/qingxiangguo/OctopuSV
-  - type: cite
-    name: Cite
-slides: ""
+    url: "https://doi.org/10.1093/bioinformatics/btaf599"                          
+  - type: pdf
+    url: ""                        
+
+# Optional
+abstract: ""
+summary: ""
+
+tags:
+  - Structural variants
+  - Long-read sequencing
+  - Multi-sample analysis
+---
