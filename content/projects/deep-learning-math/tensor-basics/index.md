@@ -1,6 +1,6 @@
 ---
 title: 'Fundamentals of Tensors'
-date: '2025-01-17'
+date: '2023-02-17'
 summary: 'Understanding tensor dimensions from scalars to multi-dimensional arrays in PyTorch'
 tags:
   - Deep Learning
