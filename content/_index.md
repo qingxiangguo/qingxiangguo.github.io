@@ -49,7 +49,7 @@ sections:
 
         My long-term goal is to become an independent academic researcher advancing the use of multi-omics and AI-driven methods in biomedical genomics. While my Ph.D. work focused on parasitic cnidarians, my current research as a postdoctoral fellow in Dr. Rendong Yang's lab at the Feinberg School of Medicine, Northwestern University, centers on the structural variations of cancer genomes and single-cell omics. I develop long-read and deep learning based tools to decode the regulatory complexity of cancer genomes, with the aim of enabling earlier detection, more precise target discovery, and personalized therapies - hoping that these approaches will help bridge the gap between genomic insights and practical tools for cancer diagnosis and treatment.
     design:
-      columns: '1'
+      columns: '2'
   - block: collection
     id: papers
     content:
