@@ -16,7 +16,7 @@ volume: "153"
 pages: "104772"
 
 abstract: |
-This study investigates the pathological and molecular responses of yellow catfish fins infected by *Myxobolus xiantaoensis*, revealing host-pathogen interactions underlying tissue damage and immune response.
+  This study investigates the pathological and molecular responses of yellow catfish fins infected by *Myxobolus xiantaoensis*, revealing host-pathogen interactions underlying tissue damage and immune response.
 
 keywords:
 - Fish Pathology
