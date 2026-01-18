@@ -18,7 +18,7 @@ number: "5"
 pages: "291"
 
 abstract: |
-Using comparative transcriptomic analyses, this study reveals the diversity, structural features, and evolutionary trajectories of toxin-like proteins in Myxozoa, providing insights into their adaptation and parasitic lifestyle.
+  Using comparative transcriptomic analyses, this study reveals the diversity, structural features, and evolutionary trajectories of toxin-like proteins in Myxozoa, providing insights into their adaptation and parasitic lifestyle.
 
 keywords:
 - Myxozoa
