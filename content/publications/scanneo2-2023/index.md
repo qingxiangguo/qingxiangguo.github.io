@@ -22,7 +22,7 @@ number: "11"
 pages: "btad659"
 
 abstract: |
-ScanNeo2 is a comprehensive and extensible workflow for neoantigen detection and immunogenicity prediction that integrates diverse genomic and transcriptomic alterations. The framework supports multiple variant types and provides a unified solution for cancer neoantigen discovery.
+  ScanNeo2 is a comprehensive and extensible workflow for neoantigen detection and immunogenicity prediction that integrates diverse genomic and transcriptomic alterations. The framework supports multiple variant types and provides a unified solution for cancer neoantigen discovery.
 
 featured: true
 
