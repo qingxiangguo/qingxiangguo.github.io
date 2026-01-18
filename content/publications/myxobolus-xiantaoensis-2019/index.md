@@ -7,17 +7,11 @@ authors:
   - Yang Liu
   - Zemao Gu
 journal: "Parasitology Research"
-year: 2019
-volume: "118"
-number: "4"
-pages: "1137-1146"
+date: "2019-04-01"
 publication_types: ["article-journal"]
 abstract: |
   This study describes a new myxozoan species, *Myxobolus xiantaoensis* n. sp., identified from the fins of yellow catfish (*Tachysurus fulvidraco*) in China. The parasite had previously been misattributed to *Myxobolus physophilus* in Chinese records. Integrated morphological characterization and molecular phylogenetic analyses support its taxonomic distinction and clarify historical misidentifications.
-keywords:
-  - Myxozoa
-  - Taxonomy
-  - Fish parasites
-  - Morphology
-  - Phylogenetics
+links:
+  - type: doi
+    url: "https://doi.org/10.1007/s00436-019-06299-9"
 ---
