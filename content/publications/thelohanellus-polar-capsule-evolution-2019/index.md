@@ -18,7 +18,7 @@ volume: "8"
 pages: "56–62"
 
 abstract: |
-This study reveals multiple evolutionary pathways leading to the single polar capsule morphology in *Thelohanellus* species, highlighting structural plasticity and evolutionary convergence within Myxozoa.
+  This study reveals multiple evolutionary pathways leading to the single polar capsule morphology in *Thelohanellus* species, highlighting structural plasticity and evolutionary convergence within Myxozoa.
 
 keywords:
 - Myxozoa
