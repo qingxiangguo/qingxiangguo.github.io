@@ -19,7 +19,7 @@ number: "10"
 pages: "1177–1184"
 
 abstract: |
-This study provides molecular and microscopic evidence supporting the vertical transmission of *Myxobolus honghuensis* from broodfish to offspring, with implications for disease management in aquaculture.
+  This study provides molecular and microscopic evidence supporting the vertical transmission of *Myxobolus honghuensis* from broodfish to offspring, with implications for disease management in aquaculture.
 
 keywords:
 - Vertical Transmission
