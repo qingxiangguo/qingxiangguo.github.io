@@ -18,7 +18,7 @@ number: "5"
 pages: "473–485"
 
 abstract: |
-This study describes a novel myxozoan species, *Myxobolus distalisensis* n. sp., infecting yellow catfish (*Tachysurus fulvidraco*), and provides a supplementary redescription of *M. voremkhai*. Morphological and molecular evidence supports its taxonomic distinction.
+  This study describes a novel myxozoan species, *Myxobolus distalisensis* n. sp., infecting yellow catfish (*Tachysurus fulvidraco*), and provides a supplementary redescription of *M. voremkhai*. Morphological and molecular evidence supports its taxonomic distinction.
 
 keywords:
 - Myxozoa
