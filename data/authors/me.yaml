@@ -74,22 +74,24 @@ skills:
   - name: Technical Skills
     items:
       - label: Python
-        level: 5
+        level: 3
       - label: Long-read Sequencing
-        level: 5
+        level: 4
       - label: Structural Variants
-        level: 5
+        level: 4
   - name: Research Skills
     items:
       - label: Scientific Writing
-        level: 5
-      - label: Deep Learning
         level: 4
+      - label: Deep Learning
+        level: 3
       - label: Data Visualization
-        level: 5
+        level: 4
+      - label: Molecular Biology (Wet Lab)
+        level: 4
 languages:
   - name: English
-    level: 5
+    level: 4
     label: Fluent
   - name: Chinese
     level: 5
