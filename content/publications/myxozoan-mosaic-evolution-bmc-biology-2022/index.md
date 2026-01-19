@@ -16,7 +16,7 @@ publication_types: ["article-journal"]
 publication: "*BMC Biology*, 20(1): 51"
 publication_short: "BMC Biology"
 
-featured: true
+featured: false
 
 abstract: ""
 summary: ""
