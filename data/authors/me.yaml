@@ -55,21 +55,21 @@ experience:
     org: Northwestern University
     start: 2022-01-01
     summary: |
-      Developing computational tools for cancer genomics including ChimeraLM (deep learning for 
+      Developing computational tools for cancer genomics including ChimeraLM (deep learning for
       artifact detection), OctopuSV (structural variant analysis), and ScanNeo2 (neoantigen discovery).
     button:
       text: View Publications
       url: https://scholar.google.com/citations?user=pIx0LukAAAAJ
       icon: hero/academic-cap
-experience:
+
   - role: International Intern
     org: Oregon State University
     location: Corvallis, OR, USA
-    start: 2014-03-24
-    end: 2014-09-09
-    summary: |
-      Worked on evolutionary genomic and transcriptomic projects of myxozoans under Dr. Jerri Bartholomew.
-      Investigated cryptic life cycles of myxozoans.
+    start: 2014-03-01
+    end: 2014-09-01
+    summary: |-
+      - Worked on evolutionary genomic and transcriptomic projects of myxozoans under Dr. Jerri Bartholomew.
+      - Investigated cryptic life cycles of myxozoans.
 skills:
   - name: Technical Skills
     items:
