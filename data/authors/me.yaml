@@ -14,9 +14,8 @@ status:
   icon: "🧬"
 role: Postdoctoral Scholar | Cancer Genomics & AI
 bio: |
-  Postdoctoral scholar at Northwestern University developing computational approaches for cancer genomics. 
-  My research integrates long-read sequencing, structural variant analysis, and deep learning to decode 
-  the regulatory complexity of cancer genomes.
+  Postdoctoral scholar at Northwestern University developing computational methods for cancer genomics and transcriptomics.
+  My work focuses on long-read sequencing, structural variant analysis, and machine learning, including the development of DirectClean and OctopuSV.
 affiliations:
   - name: Northwestern University Feinberg School of Medicine
     url: https://www.feinberg.northwestern.edu/
