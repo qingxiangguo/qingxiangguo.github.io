@@ -47,7 +47,7 @@ sections:
 
         My early academic training gave me a foundation in algorithm development, comparative genomics, and multi-omic data analysis. My scientific perspective was further shaped by my time at Oregon State University in 2014, where Prof. Jerri Bartholomew’s mentorship strengthened my interest in genomics, evolution, and data-driven biological discovery.
 
-        To date, I have authored or co-authored **26 peer-reviewed publications**, including **nine first-author papers**, with work published in *Nature Communications*, *Science Advances*, *Bioinformatics*, *BMC Biology*, and other journals.
+        To date, I have authored or co-authored **27 peer-reviewed publications**, including **nine first-author papers**, with work published in *Nature Communications*, *Science Advances*, *Bioinformatics*, *BMC Biology*, and other journals.
 
         I am especially interested in the intersection of **AI, long-read sequencing, and biomedical genomics**. My long-term goal is to develop computational approaches that make complex genomic and transcriptomic events easier to resolve, interpret, and connect to cancer biology, while building toward an independent research program in this area.
     design:
